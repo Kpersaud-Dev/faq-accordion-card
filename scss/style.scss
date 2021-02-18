@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #af68ea,#7c65e9);
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 2em;
+  margin: 5em 2em 5em 2em;
+  border-radius: 12px;
+  height: 100vh;
+
+  .header-image {
+    position: relative;
+    bottom: 200px;
+    background: center no-repeat url('/images/bg-pattern-mobile.svg');
+    background-position: right 5% bottom 1%;
+  }
+
+  .heading {
+    font-size: 3em;
+    padding-bottom: 1em; 
+  }
+
+  .question-container {
+    border-bottom: 1px solid hsl(240, 5%, 91%);
+    margin-bottom: 1em;
+    font-size: 14px;
+
+    .answer {
+      opacity: 0;
+    }
+  }
+
+  
+
+  
+}
+
